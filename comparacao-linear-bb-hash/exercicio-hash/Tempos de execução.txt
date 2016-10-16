@@ -1,0 +1,8 @@
+Tempos de execução
+entrada n	elementos		n buscados	tempo (s)
+entrada1 	5000			1000		0.027064	
+entrada2	25000			10000		0.744121
+entrada3	50000			10000		1.379457
+entrada4	100000			25000		3.116333
+entrada5	100000			75000		9.048726
+	
