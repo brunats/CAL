@@ -1,0 +1,29 @@
+entrada 1
+0.003059 tempo
+0.003178 tempo
+0.003324 tempo
+0.003045 tempo
+0.003271 tempo
+med: 0,0031754
+
+entrada 2
+0.059605 tempo
+0.045250 tempo
+0.040908 tempo
+0.042664 tempo
+0.040245 tempo
+med: 0,0457344
+
+entrada 3
+0.041199 tempo
+0.046332 tempo
+0.047178 tempo
+0.049716 tempo
+0.044136 tempo
+med: 0,0457122
+
+entrada 4
+0.116529 tempo
+
+entrada 5
+0.372477 tempo
