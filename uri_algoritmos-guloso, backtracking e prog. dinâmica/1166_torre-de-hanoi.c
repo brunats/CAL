@@ -3,7 +3,7 @@
 #include <math.h>
 
 #define MAX 51
-int m[51];
+int m[52];
 
 int ehQuadP(int a){
 	int aux = sqrt(a);
@@ -14,24 +14,28 @@ int ehQuadP(int a){
 }
 
 void calculaNBolas(){
-	int i, ml[MAX], cont, flag, p;
+	int i, j, ml[MAX], cont, flag, p, te;
+
+	i=0;
+	while(i<MAX){
+		ml[i] =  0;
+		i++;
+	}
+	
 	p=0;
-	cont=0;
-	while(1){
-		flag == 1;
-		for(i=0; i<MAX;i++){
-			if(ehQuadP(ml[i]+cont));{
+	cont=1;
+	for(i=0; i<MAX+1; i++){
+		flag=1;
+		for(j = 1; j < i+1; ++j){
+			if(ehQuadP(ml[j]+cont)){
 				flag--;
-				ml[i] = cont;
+				ml[j] = cont;
 			}
 		}
 		if(flag){
-			m[p] = cont-1;
-			ml[p++] = cont;
-			if(p == 51)
-				break;
+			m[i] = cont-1;
+			ml[i+1] = cont;
 		}
-		cont++;
 	}
 }
 
